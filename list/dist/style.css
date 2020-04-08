@@ -1,0 +1,11 @@
+main { width: 450px; }
+ul { list-style: square; }
+ol li {
+  list-style: upper-roman;
+  color: #FF0066;
+}
+ol li:last-child {
+  color: black;
+}
+h1 { color: orange; }
+h2 { color: purple; }

@@ -1,0 +1,84 @@
+.container {
+  font-family: "Open Sans";
+  max-width: 600px;
+  margin: 0 auto;
+}
+/* Hasznos rész START*/
+.card-holder {
+/*   height: 500px; */
+  display: flex;
+  justify-content: space-between; /* Ahonnan kezdődik a flexibilitás flex-end a végéről|| space-wetween > autómatikusan kiszámolja , hogy mekkora távolság kell pontosan, vízszintesen*/
+  align-items: center; /* az itemeket függölegesen helyezi el. start/end/center */ 
+  flex-direction: row;
+  
+  flex-wrap: wrap;
+  
+  align-content: space-between;
+  
+}
+.card {
+  width: 180px;
+  background-color: #3cb878;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  color: #FFF;
+  border-radius: 3px;
+  box-shadow: 0px 0px 3px 2px grey;
+/*   flex-grow: 1; */
+}
+/* END*/ 
+#terms {
+  position: relative;
+  top: 1.5px;
+}
+.btnClose {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  cursor: pointer;
+}
+.newsletter-form h3 { margin: 0; }
+.newsletter-form {
+  position: relative; 
+  border: solid thin #cfcfcf;
+  border-radius: 3px;
+  padding: 10px;
+  margin-top: 40px;
+}
+.newsletter-form #email {
+  display: block;
+  width: 100%;
+  border: solid thin #cfcfcf;
+  height: 30px;
+  padding-left: 3px;
+  border-radius: 3px;
+  box-sizing: border-box; /* a kerethez igazítja a méretet. */
+}
+.newsletter-form button {
+  display: block;
+  width: 100%;
+  background-color: #3cb878;
+  border: 0;
+  color: #FFF;
+  height: 30px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.newsletter-form {
+  color: grey;
+}
+#questionIcon {
+  height: 100px;
+  width: 100px;
+  background-color: #3cb878;
+  border-radius: 50%;
+  color: #FFF;
+  font-size: 70px;
+  text-align: center;
+  box-shadow: 0 0 5px 3px grey;
+  
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}

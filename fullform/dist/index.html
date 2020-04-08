@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - fullForm</title>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&display=swap" rel="stylesheet"><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<main>
+  <form>
+    <fieldset><legend>Interesting application form.</legend>
+      <fieldset><legend>What is your name?</legend><input type="text"></fieldset>
+      <fieldset><legend>What is your favorite color?</legend>
+        <label for="red"><input type="checkbox" value="red" id="red">Red</label>
+        <label for="green"><input type="checkbox" value="green" id="green">Green</label>
+        <label for="blue"><input type="checkbox" value="blue" id="blue">Blue</label>
+        <label for="other"><input type="checkbox" value="other" id="other">Other: <input type="text" id="otherColor"></label>
+      </fieldset>
+      <fieldset><legend>Would you like to become a developer?</legend>
+        <label for="yes"><input type="radio" value='yes' id="yes" name="dev">Yes</label>
+        <label for="ano"><input type="radio" value='ano' id="ano" name="dev">Ano</label>
+        <label for="igen"><input type="radio" value='igen' id="igen" name="dev">Igen</label>
+      </fieldset>
+      <fieldset><legend>Why would you like to become a developer</legend><textarea name="answer" id="answer" cols="30" rows="10"></textarea></fieldset>
+      <button>Submit</button>
+    </fieldset>
+  </form>
+</main>
+<!-- partial -->
+  
+</body>
+</html>

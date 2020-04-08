@@ -1,0 +1,30 @@
+header {
+  height: 50px;
+  background-color: purple;
+  display: flex;
+}
+div {
+  display: flex;
+  height: 500px;
+}
+main, .rightSide {
+  height: 500px;
+}
+main {
+  background-color: yellow;
+  flex-grow: 3;
+}
+.rightSide {
+  background-color: green;
+  flex-grow: 1;
+} 
+a {
+  display: block;
+  height: 30px;
+  width: 100px;
+  background-color: cyan;
+  margin: 10px;
+}
+.big {
+  width: 150px;
+}
