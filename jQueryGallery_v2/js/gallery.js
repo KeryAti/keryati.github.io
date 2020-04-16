@@ -12,7 +12,7 @@ let readData = (imagesData) => {
         }).fadeIn(200);
         $("#photo-title").html(imagesData[photoNumber].title);
         $("#photo-description").html(imagesData[photoNumber].description);
-        $("#readMore").html(`<a href="${imagesData[photoNumber].source}" target="_blank" title="${imagesData[photoNumber].sourceTitle}">read more<img src="../materials/arrow.svg" width="15px" class="readMore-arrow"></a>`)
+        $("#readMore").html(`<a href="${imagesData[photoNumber].source}" target="_blank" title="${imagesData[photoNumber].sourceTitle}">read more<img src="materials/arrow.svg" width="15px" class="readMore-arrow"></a>`)
 
         if(photoNumber !== currentPhoto) {
             $(`#image-${currentPhoto}`).removeClass('active');
