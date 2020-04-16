@@ -1,0 +1,30 @@
+[
+    {
+        "photo": "./imgs/photo-1.jpg",
+        "title": "Széchenyi lánchíd",
+        "description": "A híd hivatalos átadására 1849. november 20-án került sor, a szabadságharc leverése utáni terror és megfélemlítés légkörében.",
+        "source" : "https://hu.wikipedia.org/wiki/Sz%C3%A9chenyi_l%C3%A1nch%C3%ADd",
+        "sourceTitle" : "Wikipedia"
+    },
+    {
+        "photo": "./imgs/photo-2.jpg",
+        "title": "Hősök tere",
+        "description": "A teret 1932-ben nevezték el „Hősök terének”. Ekkor még virágágyások díszítették. 1937-ben kövezték le a 34. Eucharisztikus világkongresszus (1938) miatt.A második világháború alatt az emlékmű is bombatalálatot kapott, II. Lipót szobra teljesen megsemmisült, Mária Terézia szobra deréktól lefele megrongálódott, Ferenc József szobra kiesett a helyéről és a feje behorpadt.",
+        "source" : "https://hu.wikipedia.org/wiki/H%C5%91s%C3%B6k_tere",
+        "sourceTitle" : "Wikipedia"
+    },
+    {
+        "photo": "./imgs/photo-3.jpg",
+        "title": "Budai Várnegyed",
+        "description": "A kicsi vár (így nevezték) vagy röviden Várnegyed mellett a másik gyakori elnevezés egyszerűen Budai vár vagy – hivatalos névként – Vár. E két utóbbit azonban nem árt egyértelműsíteni, hiszen szűkebb értelemben olykor csak a Budai Várnegyed déli felét alkotó Budavári Palotát értik rajta. Ugyanúgy, ahogy a Budai Várnegyed kifejezés alatt is olykor csak az északi részt, a történelmi lakónegyedet értik.",
+        "source" : "https://hu.wikipedia.org/wiki/Budai_V%C3%A1rnegyed",
+        "sourceTitle" : "Wikipedia"
+    },
+    {
+        "photo": "./imgs/photo-4.jpg",
+        "title": "Margit híd",
+        "description": "A budapesti Margit híd a Szent István körutat és a Margit körutat köti össze a Margit-sziget érintésével. A főváros második állandó hídjaként 1872 és 1876 között épült, 1876. április 30-án avatták fel. Tervpályázatát 1871-ben írták ki, melyen az első díjat Ernest Goüin francia mérnöknek ítélték, és a Societé de Construction de Batignoles nyerte el a szerződést a híd megépítésére.",
+        "source" : "https://hu.wikipedia.org/wiki/Margit_h%C3%ADd",
+        "sourceTitle" : "Wikipedia"
+    }
+]
